@@ -9,7 +9,7 @@ exclude = ["/examples", "/webview-dist", "/webview-src", "node_modules"]
 [dependencies]
 tauri = "0.11"
 thiserror = "1.0"
-iota-stronghold = { git = "https://github.com/iotaledger/stronghold.rs", branch = "dev" }
+iota-stronghold = { git = "https://github.com/iotaledger/stronghold.rs", tag = "iota-stronghold-v1.0.5" }
 riker = "0.4"
 once_cell = "1.5"
 serde = "1.0"
